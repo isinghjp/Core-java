@@ -1,0 +1,5 @@
+create function sum(one in number, two in number) return as total number
+     begin
+   total=one+two;
+   return total;
+end;
